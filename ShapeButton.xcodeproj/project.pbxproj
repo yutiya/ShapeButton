@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C05B9F1B3013EB00F75631 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C05B9E1B3013EB00F75631 /* main.m */; };
+		84C05BA21B3013EB00F75631 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C05BA11B3013EB00F75631 /* AppDelegate.m */; };
+		84C05BA51B3013EB00F75631 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C05BA41B3013EB00F75631 /* ViewController.m */; };
+		84C05BA81B3013EB00F75631 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C05BA61B3013EB00F75631 /* Main.storyboard */; };
+		84C05BAA1B3013EB00F75631 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C05BA91B3013EB00F75631 /* Images.xcassets */; };
+		84C05BAD1B3013EB00F75631 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C05BAB1B3013EB00F75631 /* LaunchScreen.xib */; };
+		84C05BB91B3013EB00F75631 /* ShapeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C05BB81B3013EB00F75631 /* ShapeButtonTests.m */; };
+		84C05BC41B30142B00F75631 /* ShapeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C05BC31B30142B00F75631 /* ShapeButton.m */; };
+		84C05BC81B30156C00F75631 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C05BC71B30156C00F75631 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C05BB31B3013EB00F75631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C05B911B3013EB00F75631 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C05B981B3013EB00F75631;
+			remoteInfo = ShapeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C05B991B3013EB00F75631 /* ShapeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C05B9D1B3013EB00F75631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C05B9E1B3013EB00F75631 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C05BA01B3013EB00F75631 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84C05BA11B3013EB00F75631 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84C05BA31B3013EB00F75631 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84C05BA41B3013EB00F75631 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84C05BA71B3013EB00F75631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C05BA91B3013EB00F75631 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84C05BAC1B3013EB00F75631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84C05BB21B3013EB00F75631 /* ShapeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C05BB71B3013EB00F75631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C05BB81B3013EB00F75631 /* ShapeButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeButtonTests.m; sourceTree = "<group>"; };
+		84C05BC21B30142B00F75631 /* ShapeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeButton.h; sourceTree = "<group>"; };
+		84C05BC31B30142B00F75631 /* ShapeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeButton.m; sourceTree = "<group>"; };
+		84C05BC71B30156C00F75631 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C05B961B3013EB00F75631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C05BC81B30156C00F75631 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C05BAF1B3013EB00F75631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C05B901B3013EB00F75631 = {
+			isa = PBXGroup;
+			children = (
+				84C05B9B1B3013EB00F75631 /* ShapeButton */,
+				84C05BB51B3013EB00F75631 /* ShapeButtonTests */,
+				84C05B9A1B3013EB00F75631 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C05B9A1B3013EB00F75631 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C05B991B3013EB00F75631 /* ShapeButton.app */,
+				84C05BB21B3013EB00F75631 /* ShapeButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C05B9B1B3013EB00F75631 /* ShapeButton */ = {
+			isa = PBXGroup;
+			children = (
+				84C05BA01B3013EB00F75631 /* AppDelegate.h */,
+				84C05BA11B3013EB00F75631 /* AppDelegate.m */,
+				84C05BA31B3013EB00F75631 /* ViewController.h */,
+				84C05BA41B3013EB00F75631 /* ViewController.m */,
+				84C05BC21B30142B00F75631 /* ShapeButton.h */,
+				84C05BC31B30142B00F75631 /* ShapeButton.m */,
+				84C05BA61B3013EB00F75631 /* Main.storyboard */,
+				84C05BA91B3013EB00F75631 /* Images.xcassets */,
+				84C05BAB1B3013EB00F75631 /* LaunchScreen.xib */,
+				84C05B9C1B3013EB00F75631 /* Supporting Files */,
+			);
+			path = ShapeButton;
+			sourceTree = "<group>";
+		};
+		84C05B9C1B3013EB00F75631 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C05BC71B30156C00F75631 /* QuartzCore.framework */,
+				84C05B9D1B3013EB00F75631 /* Info.plist */,
+				84C05B9E1B3013EB00F75631 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C05BB51B3013EB00F75631 /* ShapeButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C05BB81B3013EB00F75631 /* ShapeButtonTests.m */,
+				84C05BB61B3013EB00F75631 /* Supporting Files */,
+			);
+			path = ShapeButtonTests;
+			sourceTree = "<group>";
+		};
+		84C05BB61B3013EB00F75631 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C05BB71B3013EB00F75631 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C05B981B3013EB00F75631 /* ShapeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C05BBC1B3013EB00F75631 /* Build configuration list for PBXNativeTarget "ShapeButton" */;
+			buildPhases = (
+				84C05B951B3013EB00F75631 /* Sources */,
+				84C05B961B3013EB00F75631 /* Frameworks */,
+				84C05B971B3013EB00F75631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShapeButton;
+			productName = ShapeButton;
+			productReference = 84C05B991B3013EB00F75631 /* ShapeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C05BB11B3013EB00F75631 /* ShapeButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C05BBF1B3013EB00F75631 /* Build configuration list for PBXNativeTarget "ShapeButtonTests" */;
+			buildPhases = (
+				84C05BAE1B3013EB00F75631 /* Sources */,
+				84C05BAF1B3013EB00F75631 /* Frameworks */,
+				84C05BB01B3013EB00F75631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C05BB41B3013EB00F75631 /* PBXTargetDependency */,
+			);
+			name = ShapeButtonTests;
+			productName = ShapeButtonTests;
+			productReference = 84C05BB21B3013EB00F75631 /* ShapeButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C05B911B3013EB00F75631 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Pandora;
+				TargetAttributes = {
+					84C05B981B3013EB00F75631 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					84C05BB11B3013EB00F75631 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 84C05B981B3013EB00F75631;
+					};
+				};
+			};
+			buildConfigurationList = 84C05B941B3013EB00F75631 /* Build configuration list for PBXProject "ShapeButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C05B901B3013EB00F75631;
+			productRefGroup = 84C05B9A1B3013EB00F75631 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C05B981B3013EB00F75631 /* ShapeButton */,
+				84C05BB11B3013EB00F75631 /* ShapeButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C05B971B3013EB00F75631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C05BA81B3013EB00F75631 /* Main.storyboard in Resources */,
+				84C05BAD1B3013EB00F75631 /* LaunchScreen.xib in Resources */,
+				84C05BAA1B3013EB00F75631 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C05BB01B3013EB00F75631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C05B951B3013EB00F75631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C05BA51B3013EB00F75631 /* ViewController.m in Sources */,
+				84C05BC41B30142B00F75631 /* ShapeButton.m in Sources */,
+				84C05BA21B3013EB00F75631 /* AppDelegate.m in Sources */,
+				84C05B9F1B3013EB00F75631 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C05BAE1B3013EB00F75631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C05BB91B3013EB00F75631 /* ShapeButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C05BB41B3013EB00F75631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C05B981B3013EB00F75631 /* ShapeButton */;
+			targetProxy = 84C05BB31B3013EB00F75631 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C05BA61B3013EB00F75631 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C05BA71B3013EB00F75631 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C05BAB1B3013EB00F75631 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C05BAC1B3013EB00F75631 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C05BBA1B3013EB00F75631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C05BBB1B3013EB00F75631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C05BBD1B3013EB00F75631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ShapeButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84C05BBE1B3013EB00F75631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ShapeButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84C05BC01B3013EB00F75631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShapeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShapeButton.app/ShapeButton";
+			};
+			name = Debug;
+		};
+		84C05BC11B3013EB00F75631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShapeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShapeButton.app/ShapeButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C05B941B3013EB00F75631 /* Build configuration list for PBXProject "ShapeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C05BBA1B3013EB00F75631 /* Debug */,
+				84C05BBB1B3013EB00F75631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C05BBC1B3013EB00F75631 /* Build configuration list for PBXNativeTarget "ShapeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C05BBD1B3013EB00F75631 /* Debug */,
+				84C05BBE1B3013EB00F75631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84C05BBF1B3013EB00F75631 /* Build configuration list for PBXNativeTarget "ShapeButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C05BC01B3013EB00F75631 /* Debug */,
+				84C05BC11B3013EB00F75631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C05B911B3013EB00F75631 /* Project object */;
+}
